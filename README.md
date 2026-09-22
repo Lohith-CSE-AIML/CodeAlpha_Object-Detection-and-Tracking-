@@ -674,13 +674,7 @@ Displays the web dashboard.
 
 ---
 
-### Upload Video
 
-```text
-POST /upload
-```
-
-Uploads and stores the selected video.
 
 ---
 
