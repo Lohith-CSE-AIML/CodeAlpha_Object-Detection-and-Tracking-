@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Object Detection & Tracking</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div>
+            <h1>Object Detection & Tracking</h1>
+            <p>YOLO + ByteTrack</p>
+        </div>
+
+        <div class="status">
+            ● SYSTEM READY
+        </div>
+
+    </header>
+
+
+    <main class="dashboard">
+
+
+        <!-- Video Upload Section -->
+
+        <section class="upload-section">
+
+            <h2>Select Video</h2>
+
+            <form id="upload-form">
+
+                <input
+                    type="file"
+                    id="video-file"
+                    accept="video/*"
+                    required
+                >
+
+                <button type="submit">
+                    Start Detection
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Live Detection Section -->
+
+        <section class="video-section">
+
+            <h2>Live Detection</h2>
+
+            <div class="video-container">
+
+                <img
+                    id="video-feed"
+                    alt="Live Detection Feed"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- Statistics Section -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <h3>OBJECTS</h3>
+
+                <p id="object-count">0</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>IN</h3>
+
+                <p id="in-count">0</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>OUT</h3>
+
+                <p id="out-count">0</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <h3>STATUS</h3>
+
+                <p id="system-status">READY</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Detection Classes Section -->
+
+        <section class="classes-section">
+
+            <h2>Detection Classes</h2>
+
+            <div
+                class="class-list"
+                id="class-list"
+            >
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
