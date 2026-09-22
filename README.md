@@ -571,30 +571,14 @@ The dashboard updates the statistics while the video is being processed.
 ## 🔗 Links
 
 
-* **GitHub Repository:** [Object Detection & Tracking](https://github.com/Lohith-CSE-AIML/CodeAlpha_Object-Detection-and-Tracking)
+* **GitHub Repository:** [Object Detection & Tracking](https://github.com/Lohith-CSE-AIML/CodeAlpha_Object-Detection-and-Tracking-)
 * **GitHub Profile:** [Lohith-CSE-AIML](https://github.com/Lohith-CSE-AIML)
 * **LinkedIn:** [Thoti Lohith](https://www.linkedin.com/in/thoti-lohith/)
 
 
 ---
 
-## 📸 Screenshots
 
-### 🖥️ Dashboard
-
-Add your dashboard screenshot here.
-
-### 🎯 Object Detection
-
-Add your object detection screenshot here.
-
-### 🆔 Object Tracking
-
-Add your object tracking screenshot here.
-
-### 🚶 IN / OUT Counting
-
-Add your IN/OUT counting screenshot here.
 
 
 
